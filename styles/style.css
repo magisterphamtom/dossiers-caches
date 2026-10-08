@@ -1,0 +1,31 @@
+/* Masquer les dossiers de journaux */
+
+/* Mode « masquer complètement » */
+.directory li.folder.dc-hidden.dc-mode-hide { display: none !important; }
+
+/* Mode « griser » et dossiers masqués révélés temporairement */
+.directory li.folder.dc-hidden.dc-mode-dim > .folder-header,
+.directory li.folder.dc-hidden.dc-revealed > .folder-header {
+  opacity: 0.35;
+  filter: grayscale(80%);
+}
+.directory li.folder.dc-hidden.dc-revealed > .folder-header::after {
+  content: "\f070"; /* eye-slash */
+  font-family: var(--font-awesome, "Font Awesome 6 Pro");
+  font-weight: 900;
+  margin-left: auto;
+  padding-right: 6px;
+  font-size: 0.8em;
+}
+
+/* Bouton d'en-tête */
+.directory .dc-toggle-hidden {
+  flex: 0 0 auto;
+}
+.directory .dc-toggle-hidden.active {
+  color: var(--color-warm-2, #ff6400);
+}
+.directory .dc-toggle-hidden .dc-count {
+  font-size: 0.75em;
+  margin-left: 3px;
+}

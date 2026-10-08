@@ -1,0 +1,33 @@
+{
+  "DC": {
+    "Settings": {
+      "Mode": {
+        "Name": "Affichage des dossiers masqués",
+        "Hint": "« Masquer complètement » fait disparaître le dossier et son contenu. « Griser » le laisse visible mais estompé.",
+        "Hide": "Masquer complètement",
+        "Dim": "Griser"
+      },
+      "AllTabs": {
+        "Name": "Aussi dans les autres onglets",
+        "Hint": "Permet de masquer les dossiers des onglets Acteurs, Objets, Scènes, Tables, etc., et pas seulement des Journaux. Recharge la page."
+      }
+    },
+    "Menu": {
+      "Hide": "Masquer ce dossier",
+      "Show": "Réafficher ce dossier",
+      "ShowAll": "Réafficher tous les dossiers masqués"
+    },
+    "Header": {
+      "Reveal": "Afficher les dossiers masqués ({count})",
+      "HideAgain": "Cacher à nouveau les dossiers masqués"
+    },
+    "Notifications": {
+      "Hidden": "Dossier « {name} » masqué.",
+      "Shown": "Dossier « {name} » réaffiché.",
+      "AllShown": "Tous les dossiers masqués ont été réaffichés."
+    },
+    "Errors": {
+      "Save": "Impossible d'enregistrer les dossiers masqués (voir la console F12)."
+    }
+  }
+}

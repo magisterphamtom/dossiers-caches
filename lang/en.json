@@ -1,0 +1,33 @@
+{
+  "DC": {
+    "Settings": {
+      "Mode": {
+        "Name": "Hidden folders display",
+        "Hint": "\"Hide completely\" removes the folder and its content from view. \"Dim\" keeps it visible but faded.",
+        "Hide": "Hide completely",
+        "Dim": "Dim"
+      },
+      "AllTabs": {
+        "Name": "Also in other tabs",
+        "Hint": "Allows hiding folders in the Actors, Items, Scenes, Tables… tabs, not only Journals. Reloads the page."
+      }
+    },
+    "Menu": {
+      "Hide": "Hide this folder",
+      "Show": "Show this folder again",
+      "ShowAll": "Show all hidden folders again"
+    },
+    "Header": {
+      "Reveal": "Show hidden folders ({count})",
+      "HideAgain": "Hide hidden folders again"
+    },
+    "Notifications": {
+      "Hidden": "Folder \"{name}\" hidden.",
+      "Shown": "Folder \"{name}\" shown again.",
+      "AllShown": "All hidden folders are shown again."
+    },
+    "Errors": {
+      "Save": "Could not save hidden folders (see F12 console)."
+    }
+  }
+}
