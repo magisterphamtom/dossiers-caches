@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/banner.png" alt="dossiers-caches" width="100%"></p>
+
 # Masquer les dossiers de journaux
 
 Module Foundry VTT (v13 et v14) : faites le ménage dans l'onglet **Journaux** en masquant d'un clic droit les dossiers dont vous n'avez pas besoin en ce moment.
