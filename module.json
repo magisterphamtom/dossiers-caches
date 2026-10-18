@@ -3,18 +3,43 @@
   "title": "Masquer les dossiers de journaux",
   "description": "Masquez d'un clic droit les dossiers inutiles de l'onglet Journaux, et réaffichez-les quand vous voulez.",
   "version": "1.0.0",
-  "authors": [{ "name": "magisterphamtom" }],
-  "compatibility": { "minimum": "13", "verified": "14.368" },
-  "esmodules": ["scripts/main.js"],
-  "styles": ["styles/style.css"],
+  "authors": [
+    {
+      "name": "magisterphamtom"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.368"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/style.css"
+  ],
   "languages": [
-    { "lang": "fr", "name": "Français", "path": "lang/fr.json" },
-    { "lang": "en", "name": "English", "path": "lang/en.json" }
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
   ],
   "url": "https://github.com/magisterphamtom/dossiers-caches",
   "manifest": "https://github.com/magisterphamtom/dossiers-caches/releases/latest/download/module.json",
   "download": "https://github.com/magisterphamtom/dossiers-caches/releases/download/v1.0.0/module.zip",
   "bugs": "https://github.com/magisterphamtom/dossiers-caches/issues",
   "readme": "https://github.com/magisterphamtom/dossiers-caches/blob/main/README.md",
-  "license": "MIT"
+  "license": "MIT",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/magisterphamtom/dossiers-caches/main/.github/banner.png"
+    }
+  ]
 }
